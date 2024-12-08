@@ -7,10 +7,8 @@ plugins:
 # Navigation links
 header_pages:
   - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Projects
-    url: /projects
-
+    url: index.md
+  - title: Page2
+    url: /page2
+    
 css: /style.css

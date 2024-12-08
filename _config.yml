@@ -3,3 +3,9 @@ description: Enquête sur les enjeux économétriques du Guinness des Records
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+navbar:
+  - name: Accueil
+    link: index.md
+  - name: Page 2
+    link: page2.md

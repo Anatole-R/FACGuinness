@@ -1,3 +1,5 @@
-Lorem ipsum dolor
-*Voici un text en markdown*
-# Wow !
+#Titre
+
+## Sous-titre
+
+Texte normal, *texte en italique*, **texte en gras**

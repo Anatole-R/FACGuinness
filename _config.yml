@@ -9,3 +9,5 @@ navbar:
     link: index.md
   - name: Page 2
     link: page2.md
+
+css: /style.css

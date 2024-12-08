@@ -2,3 +2,8 @@
 .footer a.github {
   display: none;
 }
+
+/* Hide the View on GitHub button in the top banner */
+.navbar .github {
+  display: none !important;
+}

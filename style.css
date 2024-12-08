@@ -8,29 +8,46 @@
   display: none !important;
 }
 
-/* Basic styles for the navigation bar */
+/* Style the navigation bar */
 .site-navigation {
-  background-color: #333;
+  background-color: #333; /* Dark background for the navbar */
   padding: 10px;
+  text-align: center; /* Center the navbar */
 }
 
+/* Style the list to display items horizontally */
 .site-navigation ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none; /* Remove bullet points */
   margin: 0;
-  display: flex;
+  padding: 0;
+  display: flex; /* Flexbox to align items horizontally */
+  justify-content: center; /* Center the items */
 }
 
+/* Style the individual links */
 .site-navigation li {
-  margin-right: 20px;
+  margin: 0 10px; /* Space between links */
 }
 
 .site-navigation .nav-link {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+  display: inline-block; /* Make sure the link behaves like a block */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  background-color: #555; /* Darker background for each link */
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
 }
 
+/* Hover effect for the links */
 .site-navigation .nav-link:hover {
-  text-decoration: underline;
+  background-color: #157878; /* Change background on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  text-decoration: none; /* Keep text without underline */
+}
+
+/* Optional: Active link styling */
+.site-navigation .nav-link:active {
+  background-color: #125b58; /* Even darker background when clicked */
 }

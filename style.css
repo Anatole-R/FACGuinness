@@ -1,0 +1,4 @@
+/* Hide the View on GitHub button */
+.footer a.github {
+  display: none;
+}
